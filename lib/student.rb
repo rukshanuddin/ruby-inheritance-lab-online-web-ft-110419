@@ -5,8 +5,8 @@ class Student < User
     @knowledge = []
   end
 
-  def learn
-    @@knowledge << KNOWLEDGE[rand(KNOWLEDGE.length)]
+  def learn(string)
+    @@knowledge << string
   end
 
   def knowledge
