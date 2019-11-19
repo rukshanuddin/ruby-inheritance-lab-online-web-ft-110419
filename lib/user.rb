@@ -3,8 +3,8 @@ class User
   @@all = []
 
   def initialize
-    
+
     @@all << self
   end
-  
+
 end
